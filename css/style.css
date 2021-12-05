@@ -1,0 +1,3608 @@
+*,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}ul[role="list"],ol[role="list"]{list-style:none}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion:reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+
+/* 共通部分 */
+
+html{
+  font-size: 10px !important;
+}
+body{
+  font-family:"筑紫A丸ゴシック", san-sans-serif ;
+  line-height: 1.7;
+  color:#2E2E2E;
+/*  padding:30px;*/
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+img{
+  max-width: 100%;
+  object-fit: cover;
+}
+*{
+  margin: 0;
+}
+
+
+a:hover{
+  opacity: .7;
+}
+.wrapper{
+/*  max-width: 3100px;*/
+  margin: 0 auto;
+  padding: 5% 0%;
+}
+h1,h2,h3,h4{
+  font-family: "Roboto" ,sans-serif;
+}
+p,a{
+  font-family: "Noto Sans CJK JP",sans-serif;
+}
+.pc-menu{
+  display: block;
+}
+.sp-menu{
+  display: none;
+}
+.page-header{
+  position: relative;
+}
+@media(min-width:2000px){
+  .page-header h2 img{
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+  }
+  .envelop_position
+  {
+    padding: 0px 10px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mar-two-imgs
+  {
+
+  }
+  .question_text
+  {
+      font-size: 20px;
+      font-weight:bold; 
+  }
+  .mar-top
+  {
+    margin-top:50px;
+  }
+  .top-text{
+  width:80%;
+  margin:auto;
+  padding-top:60px;
+}
+.text-part-size{
+  width:80%;
+  margin:auto;
+}
+.video-size
+{
+    width:30%;
+    padding-top: 20%;  
+    height: 0px;
+    position: relative;
+}
+.video-size1
+{
+    width: 30%;
+    padding-top: 20%;
+    height: 0px;
+    position: relative;
+    float: right;
+}
+.video-size-change
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.mar-set15
+{
+    margin-top: 15px;
+}
+.mar-set30
+{
+    margin-top: 30px;
+}
+.mar-set100
+{
+    margin-top: 100px;
+}
+.mar-set130
+{
+    margin-top: 130px;
+}
+.video-internal
+{
+  margin-top:25px;
+}
+.pc-top-pr
+{
+    font-size:30px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+}
+.pc-top-setext
+{
+    font-size:38px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+}
+.pc-top-thtext
+{
+    font-size:38px;
+    font-family:"Yu Gothic";
+    margin-left:13%;
+    font-weight:bold;
+}
+.pc-top-fotext
+{
+    font-size:24px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+}
+.gold-part
+{
+  padding:15px 20% 0 20%;
+  display: flex;
+}
+.line-style
+{
+  width:100%;
+  display: flex;
+}
+.text-block 
+{
+  background-image: url("../image/main_img.jpg");
+  width:850px;
+  height:422px;
+  margin:auto;
+  background-repeat: no-repeat;
+}
+.text-block-st 
+{
+  margin-left: 10px;
+}
+.gold-img
+{
+
+  width:33%;
+}
+.gold-part-st
+{
+  margin:auto;
+  width:80%;
+}
+.gold-part-text-st1
+{
+  color:red;
+  font-size:25px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-text-st2
+{
+  color:red;
+  font-size:42px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-text-st3
+{
+  color:red;
+  font-size:47px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-combine
+{
+  display:flex;
+}
+.gold-part-combine1
+{
+  display: flex;
+
+}
+.video-width
+{
+  width:70%;
+}
+.text-part
+{
+  width:80%;
+  margin:auto;
+}
+.text-part-st1
+{
+  color:black;
+  font-size:15px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st2
+{
+  color:black;
+  font-size:15px;
+  font-family: "Yu Gothic";
+  font-weight:normal;
+}
+.text-part-st3
+{
+  color:red;
+  font-size:20px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+  text-decoration: underline;
+}
+.text-part-st4
+{
+  color:black;
+  font-size:30px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st5
+{
+  color:black;
+  font-size:21px;
+  font-family: "Yu Gothic";
+}
+.text-part-st6
+{
+  color:black;
+  font-size:16px;
+  font-family: "Yu Gothic";
+}
+.text-part-st7
+{
+  color:red;
+  font-size:16px;
+  font-family: "Yu Gothic";
+}
+.text-part-st8
+{
+  color:red;
+  font-size:38px;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+}
+.text-part-st9
+{
+  color:red;
+  font-size:30px;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+  margin-top: 10px;
+}
+.text-part-st10
+{
+  color:black;
+  font-size:30px;
+  font-family: "Yu Gothic";
+  
+}
+.text-part-st11
+{
+  color:red;
+  font-size:23px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+  text-decoration: underline;
+  
+}
+.text-yellow-part
+{
+  padding:30px 0px;
+}
+.text-yellow-part-bg
+{
+  padding: 15px;
+  width:100%;
+  margin:30px 0px;
+  background-color: #F8D87B;
+}
+.video-part{
+  padding:10px 5px;
+}
+.video-textpart
+{
+  padding: 0px 10px;
+  margin-left:40px;
+  margin-top:-5px;
+  border:1px solid black;
+  width:70%;
+}
+.video-textpart-title
+{
+  font-family: "Calibri";
+  font-size:    44px;
+}
+.video-textpart-subtitle
+{
+  font-family: "Yu Gothic";
+  font-size:    25px;
+  margin-top:   23px;
+}
+.video-textpart-content
+{
+/*  margin-top: 50px;*/
+  font-family: "Yu Gothic";
+  font-size:    16px;
+}
+.las-env
+{
+  float:right;width:20%;
+}
+.two-imgs-po
+{
+  width: 70%;
+  display: flex;
+}
+.video-textpart-explain
+{
+  margin-top: 150px;
+  width: 100%;
+  font-family: "Yu Gothic";
+  font-size:    14px;
+}
+}
+.page-header div{
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%, 70%);
+  background-color: rgba(255,255,255,.8);
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 5rem;
+  font-family: "Noto Sans CJK JP Thin";
+}
+
+
+
+/************************************
+ハンバーガーボタン
+************************/
+.hamburger {
+  display : block;
+  position: relative;
+  z-index : 3;
+  right : 50px;
+  top   : 6px;
+  width : 42px;
+  height: 42px;
+  cursor: pointer;
+  text-align: center;
+
+}
+.hamburger span {
+  display : block;
+  position: absolute;
+  width   : 30px;
+  height  : 2px ;
+  left    : 6px;
+  background : #99DDE2;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition   : 0.3s ease-in-out;
+  transition        : 0.3s ease-in-out;
+  border-radius: 4px;
+}
+.hamburger span:nth-child(1) {
+  top: 10px;
+}
+.hamburger span:nth-child(2) {
+  top: 20px;
+}
+.hamburger span:nth-child(3) {
+  top: 30px;
+}
+
+/* ナビ開いてる時のハンバーガーボタン */
+.hamburger.active span:nth-child(1) {
+  top : 16px;
+  left: 6px;
+  background :#99DDE2;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform   : rotate(-45deg);
+  transform        : rotate(-45deg);
+}
+
+.hamburger.active span:nth-child(2),
+.hamburger.active span:nth-child(3) {
+  top: 16px;
+  background :#99DDE2;
+  -webkit-transform: rotate(45deg);
+  -moz-transform   : rotate(45deg);
+  transform        : rotate(45deg);
+}
+/* ナビゲーション(メニューページのこと)  *********************************************/
+.globalMenuSp {
+  position: absolute;
+  z-index : -2;
+  top  : 0;
+  left : 0;
+  width: 100%;
+  /* height: 100%; */
+  opacity: 0;
+  transition: opacity .6s ease, visibility .6s ease;
+  background-color: #ffffff;
+  
+}
+
+.globalMenuSp .icon-list {/* SNSアイコン */
+  margin: 60px auto;
+  padding: 0;
+  width: 100%;
+  background-color: #FAFAFA;
+ 
+}
+.globalMenuSp .icon-list ul {/* SNSアイコン */
+  margin: 10px auto;
+  display: flex;
+  text-align: center;
+}
+.globalMenuSp .icon-list ul li {/* SNSアイコン */
+  margin: 0 30px;
+}
+.globalMenuSp .icon-list ul li img{/* SNSアイコン */
+  display: inline-block;
+  margin: 0 auto;
+}
+.globalMenuSp .icon-list ul li span{/* SNSアイコン */
+  color: #73B5BA;
+  font-size: 1.7rem;
+  font-family: "Roboto",sans-serif;
+  display: block;
+}
+
+.globalMenuSp nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  list-style: none;
+}
+.globalMenuSp nav ul li{
+  font-size: 1.8rem;
+  width: 30%;
+  border-bottom:1px solid #BABABA ;
+  margin: 1% 1%;
+  padding-bottom: 1%;
+}
+.globalMenuSp div{
+  display: flex;
+  justify-content:center;
+}
+.globalMenuSp div>a{
+  border:1px solid #707070 ;
+  background-color:#E8E8E8 ;
+  display: inline-block;
+  width: 36%;
+  margin: 40px 4%;
+  text-align: center;
+  padding: 4% 0;
+  font-size: 2.2rem;
+}
+
+
+/* このクラスを、jQueryで付与・削除する */
+.globalMenuSp.active {
+  opacity: 100;
+ z-index: 2;
+}
+/************************************
+ナビゲーション/ハンバーガーここまで
+************************/
+
+
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+.slider ,.slider2{/*横幅94%で左右に余白を持たせて中央寄せ*/
+  width:100%;
+  margin:0 ;
+  line-height: 0;
+  
+}
+.slider{
+  height: 700px;
+}
+.slider div{
+  height: 700px;
+}
+.slider div li{
+  height: 700px;
+}
+
+.slider img {
+  /* width:70vw; */
+  height: 100%;
+  /* スライダー内の画像を60vwにしてレスポンシブ化 */
+  /* height:100%; */
+}
+.rental-main .slider.pc-menu img {
+  width:100%;
+  /* スライダー内の画像を60vwにしてレスポンシブ化 */
+  /* height:100%; */
+}
+.slick-slide.slick-center{
+  width: 1280px;
+}
+.slider .slick-slide:not(.slick-center) {
+
+  -webkit-filter: blur(5px);
+  -moz-filter:blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(20px);
+  transition: 0.2s linear;
+}
+
+.slider .slick-slide.slick-center{
+position: relative;
+}
+
+.slider .slick-slide.slick-center img{
+  opacity: 1;
+}
+/* spばん */
+.slider2 img{
+  margin: 0;
+  width: 100%;
+}
+
+#thumbnail_slider {
+  margin: 3px auto 10px;
+}
+#thumbnail_slider ul li{
+  width: 31%;
+  
+}
+#thumbnail_slider .slick-slide{
+
+  margin: 0 2px;
+}
+
+.slide-item img{
+    width: 100%;
+  }  
+
+.thumbnail-item img{
+    width: 100%;
+    margin: 0 auto;
+  } 
+/* spばんここまで */
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+  text-align:center;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.slick-dots li {
+  display:inline-block;
+  margin:0 7px;
+}
+
+.slick-dots button {
+  color: transparent;
+  outline: none;
+  width: 8px;/*ドットボタンのサイズ*/
+  height:8px;/*ドットボタンのサイズ*/
+  display:block;
+  border-radius:50%;
+  background:#ffffff;/*ドットボタンの色*/
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.slick-dots .slick-active button{
+  background:#FCB0B0;/*ドットボタンの現在地表示の色*/
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+/*==================================================
+スライダーのためのcssここまで
+===================================*/
+/*==================================================
+ヘッダー部分
+===================================*/
+header{
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  width: 100vw;
+}
+header h1{
+  margin:10px 0 10px 2%;
+  z-index: 3;
+  
+}
+header h1 a{
+  display: flex;
+  align-items: center;
+}
+header h1 a p:last-child{
+  margin-left: 10px;
+}
+header>div{
+  /*display: flex;
+  justify-content:stretch;*/
+  
+}
+header>div ul{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 60px;
+  width: 20%;
+  justify-content:flex-end;
+}
+header>div ul li{
+  margin-left: 6%;
+  min-width: 40px;
+}
+header>div ul li a{
+  display: inline-block;
+  padding: 6px;
+  height: 40px;
+}
+header>div ul li a img{
+  width: 28px;
+
+}
+/*==================================================
+ヘッダー部分ここまで
+===================================*/
+/*==================================================
+メイン
+===================================*/
+main{
+/*  text-align: center;
+  padding: 40px 0px 40px 0px;*/
+}
+.section-logo img{
+  margin: 0 auto;
+  width: 60px;
+}
+.section-title{
+  font-size: 1.5rem;
+  margin: 40px 0;
+  font-weight:100 !important ;
+  letter-spacing:0.09em ;
+}
+main>h2 span{
+  font-size: 4.5rem;
+  display: block;
+  line-height: 60px;
+  margin-top: 10px;
+}
+main>h2 {
+  letter-spacing:0.09em ;
+}
+main>h3.wrapper{
+ 
+ 
+  height: 81px;
+  margin: 40px auto;
+}
+main>h3.wrapper img{
+  height: 100%;
+  width: 100%;
+}
+/*==================================================
+コンセプト
+===================================*/
+#concept{
+
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+#concept iframe{
+  width: 100% !important;
+  height: 560px;
+/*  max-width: 1000px;*/
+  
+}
+#concept .wrapper>p{
+  font-size: 1.4rem;
+  line-height: 40px;
+  margin-top: 60px;
+  font-weight: 350;
+}
+.topics{
+  width: 83%;
+  padding: 20px 0 40px;
+  margin: 60px auto 0;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, .1) ;
+  max-width: 820px;
+}
+.topics h1{
+  display: inline;
+  font-size: 3rem;
+  margin: 0 23% 0 30%;
+  font-weight: 100;
+  letter-spacing: 0.09em;
+  
+}
+
+.topics>p{/* 全て見る */
+  display: inline-block;
+  line-height:45px ;
+  font-size: 1.5rem;
+  
+}
+
+
+.arrow_s {/* 三角矢印 */
+  position: relative;
+  display: inline-block;
+  padding-right: 12px;
+  text-decoration: none;
+}
+.arrow_s::after {/* 三角矢印 */
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 4px 0 4px 6px;
+  border-color: transparent transparent transparent #333;
+  position: absolute;
+  top: 53%;
+  right: 0;
+  margin-top: -6px;
+}
+/* ループ処理をしなければならないところ */
+.topics ul{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.topics ul li{
+  width: 35%;
+  display: flex;
+  text-align: left;
+}
+.topics ul li:first-child{
+  position: relative;
+}
+.topics ul li:first-child::after{
+  content: "";
+  height: 90%;
+  width: 1px;
+  background-color:#99DDE2 ;
+  position: absolute;
+  left: 120%;
+}
+.topics ul li a{
+  display: flex;
+}
+.topics ul li h2{/*記事のサムネイルの親要素*/
+  width: 50%;
+  margin-right: 5.2%;
+}
+.topics ul li h2 img{/*記事のサムネイル*/
+  width: 100%;
+}
+.topics ul li h3.news-title{/*記事のタイトル*/
+  display: block;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.topics ul li h3.news-title .date{/*記事の日付*/
+  display: block;
+  font-family: "Roboto",sans-serif;
+  font-size: 1.2rem;
+  color: #404040;
+}
+/* ループ処理をしなければならないところここまで */
+
+/*==================================================
+コンセプトここまで
+===================================*/
+/*==================================================
+cafe,bar共通部分
+===================================*/
+.grad{
+  width: 100vw;
+  height: 50px;
+  background: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+
+.textpart-bar{
+  background: -moz-linear-gradient(left, #fcf5f5, #ffffff);
+  background: -webkit-linear-gradient(left, #fcf5f5, #ffffff);
+  background: linear-gradient(to right, #fcf5f5, #ffffff);
+  margin-top: 00px;
+/*  padding: 70px 0;*/
+}
+.textpart-bar .section-title{
+  font-size: 5.5rem;
+  font-weight: normal;
+  margin-top: 0;
+  line-height: 60px;
+}
+.textpart-bar .wrapper>div h3{
+  width: 50%;
+/*  max-width: 500px;*/
+}
+.textpart-bar .wrapper>div>div{
+/*  text-align: left;
+  margin-top: 20px;*/
+}
+#cafe .wrapper>div>div{
+  margin-right: 12.5%;
+}
+#bar .wrapper>div>div{
+  margin-left: 12.5%;
+}
+.textpart-bar .wrapper>div>div>p{
+/*  font-size: 20px;
+  font-weight: bold;*/
+/*  font-size: 1.6rem;
+  margin-bottom: 20px;
+  font-weight: 400;*/
+}
+.time{
+  border: 1px solid #BF8483;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 1%;
+}
+.time h4{
+  font-family:"Noto Sans CJK JP",sans-serif ;
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #C98181;
+  margin-bottom: 20px;
+}
+.time ul li{
+  font-family:"Noto Sans CJK JP",sans-serif ;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+.time ul li:nth-child(2n){
+  color: #C98181;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.time p{
+  font-weight: 400;
+  color: #939393;
+}
+.top-btn{
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 35px;
+  align-items: center;
+}
+.top-btn p{
+  width: 20%;
+  margin: 0 5%;
+}
+
+
+.top-btn span{
+  display: inline;
+  line-height: 40px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 100;
+}
+.top-btn.arrow_s::after {/* ボタンの三角矢印 */
+  border-color: transparent transparent transparent #ffffff;
+  right: 10%;
+}
+#cafe .wrapper>div>div .time .top-btn{
+  margin: 10px auto;
+  background-color: #FCB0B0;
+}
+
+/*==================================================
+cafe,bar共通部分ここまで
+===================================*/
+#cafe .wrapper >div{
+  display: flex;
+  justify-content: space-between;
+}
+#bar .wrapper >div{
+  display:flex;
+  flex-direction:row-reverse;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  
+}
+#bar  .wrapper>div>div .time {
+  border: 1px solid #73B5BA;
+}
+#bar .wrapper>div>div .time h4 {
+  color: #73B5BA;
+}
+#bar .wrapper>div>div .time ul li:nth-child(2n) {
+  color: #73B5BA;
+}
+#bar .wrapper>div>div .time .top-btn{
+  background-color: #99DDE2;
+}
+/*==================================================
+レンタルスペース
+===================================*/
+
+.rental .section-title {
+  font-size: 2.8rem;
+  line-height: 40px;
+}
+.rental>div{
+  display: flex;
+  justify-content: space-between;
+  
+ 
+  
+}
+  .envelop_position
+  {
+    padding: 0px 10px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.top-text{
+/*  text-align: left;*/
+  width:63%;
+  margin:auto;
+  padding-top:60px;
+}
+.text-part-size{
+  width:80%;
+  margin:auto;
+}
+.video-size
+{
+    width:30%;
+    padding-top: 20%;  
+    height: 0px;
+    position: relative;
+}
+.video-size1
+{
+    width: 30%;
+    padding-top: 20%;
+    height: 0px;
+    position: relative;
+    float: right;
+}
+.video-size-change
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.mar-set15
+{
+    margin-top: 15px;
+}
+.mar-set30
+{
+/*    margin-top: 30px;*/
+}
+.mar-set100
+{
+    margin-top: 100px;
+}
+.mar-set130
+{
+    margin-top: 130px;
+}
+.video-internal
+{
+  margin-top:25px;
+}
+.pc-top-pr
+{
+    font-size:30px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+}
+.pc-top-setext
+{
+    font-size:38px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+}
+.pc-top-thtext
+{
+    font-size:38px;
+    font-family:"Yu Gothic";
+    margin-left:13%;
+    font-weight:bold;
+}
+.pc-top-fotext
+{
+    font-size:24px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+}
+.gold-part
+{
+  padding:15px 20% 0 20%;
+  display: flex;
+}
+.line-style
+{
+  width:80%;
+  display: flex;
+}
+.text-block 
+{
+  background-image: url("../image/main_img.jpg");
+  width:80%;
+  height:472px;
+  margin:auto;
+  background-repeat: no-repeat;
+}
+.text-block-st 
+{
+  margin-left: 40px;
+}
+.gold-img
+{
+
+  width:33%;
+}
+.gold-part-st
+{
+/*  margin:auto;
+  width:107%;*/
+}
+.gold-part-text-st1
+{
+  color:red;
+  font-size:25px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-text-st2
+{
+  color:red;
+  font-size:42px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-text-st3
+{
+  color:red;
+  font-size:47px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-combine
+{
+ /* margin-top: 20px;*/
+  display:flex;
+}
+.video-width
+{
+  width:70%;
+}
+.gold-part-combine1
+{
+  display: flex;
+
+}
+.text-part
+{
+  width:80%;
+  margin:auto;
+}
+.text-part-st1
+{
+  color:black;
+  font-size:15px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st2
+{
+  color:black;
+  font-size:15px;
+  font-family: "Yu Gothic";
+  font-weight:normal;
+}
+.text-part-st3
+{
+  color:red;
+  font-size:20px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+  text-decoration: underline;
+}
+.text-part-st4
+{
+  color:black;
+  font-size:32px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st5
+{
+  color:black;
+  font-size:24px;
+  font-family: "Yu Gothic";
+}
+.text-part-st6
+{
+  color:black;
+  font-size:22px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st7
+{
+  color:red;
+  font-size:22px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st8
+{
+  color:red;
+  font-size:39px;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+}
+.text-part-st9
+{
+  color:red;
+  font-size:30px;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+  margin-top: 10px;
+}
+.text-part-st10
+{
+  color:black;
+  font-size:30px;
+  font-family: "Yu Gothic";
+  
+}
+.text-part-st11
+{
+  color:red;
+  font-size:24px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+  text-decoration: underline;
+  
+}
+.text-yellow-part
+{
+  padding:30px 0px;
+}
+.text-yellow-part-bg
+{
+  padding: 15px;
+  width:100%;
+  margin:30px 0px;
+  background-color: #F8D87B;
+}
+.video-part{
+  padding:10px 5px;
+}
+.video-textpart
+{
+  padding: 10px 11px;
+  margin-left:30px;
+  margin-top:-5px;
+  border:1px solid black;
+  width:70%;
+}
+.video-textpart-title
+{
+  font-family: "Calibri";
+  font-size:    60px;
+}
+.video-textpart-subtitle
+{
+  font-family: "Yu Gothic";
+  font-size:    35px;
+  margin-top:   32px;
+}
+.video-textpart-content
+{
+/*  margin-top: 10px;*/
+  font-family: "Yu Gothic";
+  font-size:    20px;
+  font-weight: bold;
+}
+.las-env
+{
+  float:right;width:20%;
+}
+.question_text
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+  .mar-two-imgs
+  {
+    margin-top:100px; 
+  }
+.two-imgs-po
+{
+  width: 70%;
+  display: flex;
+ 
+}
+.video-textpart-explain
+{
+  margin-top: 50px;
+  width: 100%;
+  font-family: "Yu Gothic";
+  font-size:    20px;
+  font-weight: bold;
+}
+
+
+.rental>div h1{/* 画像 */
+  width: 46%;
+}
+.rental>div h1 img{/* 画像 */
+  width: 100%;
+}
+.rental>div>div{
+  width: 35%;
+  margin: 30px 12.5% 0 0;
+  text-align: left;
+}
+.rental>div p:nth-child(1){
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.rental>div p:nth-child(2){
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+.rental .top-btn {
+  background-color: #73B5BA;
+}
+.rental .top-btn p{
+  margin-bottom: 0 !important;
+}
+/*==================================================
+レンタルスペースここまで
+===================================*/
+/*==================================================
+カレー
+===================================*/
+.curry{
+  background-color: #D8E8DE;
+/*  padding: 65px 0 85px;*/
+}
+.curry .section-title{
+  margin: 0 auto;
+  font-size: 3rem;
+}
+.curry .wrapper>p{
+  font-size: 1.4rem;
+  margin: 20px auto 30px;
+  font-weight: 350;
+}
+.curry .wrapper>div{
+/*  display: flex;*/
+  justify-content: space-between;
+}
+.curry .wrapper>div>div{
+/*  width: 30%;*/
+  text-align: left;
+ /* margin-left: 12.5%;*/
+}
+.curry .wrapper>div>div>p{
+/*  font-size: 1.3rem;*/
+}
+.curry .time h4{
+  color: #2B623F;
+}
+.curry .time ul li {
+  color: #2E2E2E;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+  width: 90%;
+  margin: 3px auto;
+}
+.curry .top-btn{
+  background-color: #2B623F;
+}
+.curry .wrapper>div>h1{
+  width: 55%;
+ /* max-width: 548px;*/
+}
+.curry .time{
+  border: 1px solid #2B623F;
+}
+/*==================================================
+カレーここまで
+===================================*/
+/*==================================================
+sns
+===================================*/
+#sns{
+  background: -moz-linear-gradient(left, #fcf5f5, #ffffff);
+  background: -webkit-linear-gradient(left, #fcf5f5, #ffffff);
+  background: linear-gradient(to right, #fcf5f5, #ffffff);
+  padding: 100px 0;
+}
+#sns .wrapper{
+  display: flex;
+  justify-content: center;
+}
+#sns .wrapper>div{
+  width: 50%;
+}
+#sns .wrapper>div:first-child {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgb(0 0 0 / 10%);
+}
+#sns .wrapper>div:first-child .section-title{
+  margin: 0 auto;
+  font-size: 3rem;
+  line-height: 40px;
+}
+
+#sns .wrapper>div:first-child .twitter{
+  width: 50%;
+  margin: 30px auto 0;
+}
+#sns .wrapper>div:first-child .twitter iframe{
+  width: 100%;
+  min-width: 100% !important;
+}
+
+#sns .wrapper>div:first-child p{
+  display: inline-block;
+  width:10% ;
+  margin: 20px 3%;
+}
+#sns .wrapper>div:first-child p img{
+  display: inline;
+}
+#sns iframe{
+  border: 1px solid #CE8383 !important;
+  border-radius:9px ;
+}
+
+#sns .wrapper>div:last-child {
+  background-color: #FDF3F3;
+}
+#sns .wrapper>div:last-child .section-logo{
+  margin-top: 30%;
+}
+#sns .wrapper>div:last-child .section-title{
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+#sns .wrapper>div:last-child .section-title span{
+  font-size: 2rem;
+  display: block;
+  line-height: 38px;
+  color: #000000;
+}
+#sns .wrapper>div:last-child>p{
+  font-size: 1.3rem;
+  display: inline-block;
+  width: 60% ;
+  margin: 20px auto;
+  color: #939393;
+}
+#sns .wrapper>div:last-child .top-btn{
+  background-color: #FCB0B0;
+  width: 50%;
+  font-size: 1.2rem;
+}
+#sns .wrapper>div:last-child small{
+  border-bottom: 1px #2E2E2E solid;
+}
+#sns .top-btn span {
+  font-size:2.3rem ;
+}
+#sns .wrapper>div:last-child>p {
+  margin: 10px auto;
+}
+
+
+/*==================================================
+snsここまで
+===================================*/
+/*==================================================
+メインここまで
+===================================*/
+/*==================================================
+footer
+===================================*/
+footer iframe{
+  width:100% ;
+  height:700px ;
+  margin-bottom: 10px;
+}
+footer  {
+  text-align: center;
+}
+/*==================================================
+footerここまで
+===================================*/
+/*==================================================
+トピックスページ　　　　ループ処理
+===================================*/
+.page-header .topics-.page-title.page-title{
+  font-family: "Roboto",sans-serif;
+  font-weight: 100;
+}
+.topics-main{
+  background-color: #FCF6F6;
+  margin-top: 0;
+  padding: 160px 0;
+  
+}
+.topics-main ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.topics-main ul li{
+  width: 44%;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #B7B7B7;
+  padding-bottom: 30px;
+}
+.topics-main ul li a{
+  display: flex;
+  justify-content: space-between;
+}
+.topics-main ul li .thumbnail{
+  width: 45%;
+}
+.topics-main ul li .thumbnail img{
+  width: 100%;
+}
+.topics-main ul li div{
+  width: 51%;
+  text-align: left;
+}
+.topics-main ul li div .date{
+  display: inline;
+}
+.topics-main ul li div .cat{
+  display: inline;
+  color: #BF8483;
+  margin-left: 10%;
+}
+.topics-main ul li div .news-title{
+  font-size: 1.3rem;
+  margin-top: 5%;
+}
+/* ページネーション */
+.page-nation{
+  padding:2em;
+  display:flex;
+  justify-content:center;
+  
+}
+.page-nation a,.page-nation span{
+  width:50px;
+  height:50px;
+  margin:2px 1%;
+  line-height:50px;
+  text-align:center;
+  font-size:1.5rem;
+  font-weight: bold;
+  text-decoration:none;
+  color:#B7B7B7;
+  transition:.3s;
+  border-radius: 50%;
+  font-family: "Roboto",sans-serif;
+  border: 2px solid #B7B7B7;
+}
+.page-nation a:hover{
+  background:#FCB0B0;
+  border-radius:100%;
+  transform:rotate(360deg);
+  color: #ffffff;
+}
+.page-nation .current{
+  background:#FCB0B0;
+  color: #ffffff;
+  
+}
+.page-nation .dots{
+  background:none;
+}
+
+
+/* ページネーションここまで */
+
+/* ページしたコンタクト */
+.page-contact  {
+  background-color: #FCF6F6;
+  padding-bottom: 50px ;
+}
+
+.page-contact .wrapper{
+  text-align: center;
+  border-top: 1px solid #CE8383;
+  padding: 40px 0;
+  width: 90%;
+}
+.page-contact .wrapper>div .section-title{
+    font-size: 1rem;
+    margin: 20px 0;
+}
+.page-contact .wrapper>div .section-title span{
+  font-size: 2.5rem;
+  display: block;
+  line-height: 38px;
+}
+.page-contact .wrapper>div>p{
+  font-size: 1.3rem;
+  display: inline-block;
+  width: 60% ;
+  margin: 20px auto;
+}
+.page-contact .wrapper>div .top-btn{
+  background-color: #FCB0B0;
+  width: 30%;
+  font-size: 1.2rem;
+}
+.page-contact .wrapper>div small{
+  border-bottom: 1px #2E2E2E solid;
+}
+/* ページ下コンタクト ここまで */
+
+
+
+/*=====================================================================
+トピックスページここまで
+===================================*/
+/*=====================================================================
+料金ページ
+===================================*/
+.page-header .page-title{
+  font-family: "Noto Sans CJK JP" ;
+  font-weight: 100;
+}
+.price-main{
+  padding-top: 140px;
+  background: -moz-linear-gradient(left, #fcf5f5, #ffffff);
+  background: -webkit-linear-gradient(left, #fcf5f5, #ffffff);
+  background: linear-gradient(to right, #fcf5f5, #ffffff);
+  margin-top: 0;
+}
+.price-main .textpart-bar .wrapper>div>div {
+  margin: 0 !important;
+}
+.price-main .textpart-bar .wrapper >div {
+  justify-content: space-around !important;
+  margin-bottom: 0 !important;
+}
+.price-main .textpart-bar{
+  margin-top: 0;
+  padding: 30px 0;
+}
+.price-main #cafe .wrapper> div  {
+  flex-direction: row-reverse;
+}
+.price-main #bar .wrapper >div {
+  flex-direction: row;
+}
+.price-main .cafe_bar-link a{
+  font-family: "Roboto",sans-serif;
+  font-size: 1.7rem;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 5px;
+  margin: 0 20px;
+}
+.price-main .cafe_bar-link a span{
+  font-size: 1.3rem;
+  margin-left: 25px;
+}
+.price-main .cafe_bar-link a:last-child span{
+  margin-left: 28px;
+}
+.price-main .textpart-bar .time {
+  padding: 5% 7%;
+  font-family: "Noto Sans CJK JP DemiLight";
+  margin-bottom: 30px;
+}
+.price-main .textpart-bar .time h5{
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center; /* 垂直中心 */
+  justify-content: center; /* 水平中心 */
+  
+}
+.price-main .textpart-bar .time h5::before {
+  content: "";
+  width: 35%; /* 線の長さ */
+  margin-right: 5%;
+}
+.price-main .textpart-bar .time h5:after {
+  content: "";
+  width: 35%; /* 線の長さ */
+  margin-left: 5%;
+}
+.price-main #cafe.textpart-bar .time h5::before, .price-main #cafe.textpart-bar .time h5:after {
+  border-top: 1px solid #BF8483;
+}
+.price-main #bar.textpart-bar .time h5:before, .price-main #bar.textpart-bar .time h5:after {
+  border-top: 1px solid #73B5BA;
+}
+.price-main .textpart-bar .time h6 {
+  margin: 15px 0;
+  font-size: 1.5rem;
+}
+.price-main .textpart-bar .time h6 span{
+  font-size: 1rem;
+}
+.price-main .textpart-bar .time p{
+  margin-bottom: 20px;
+  text-align: left;
+}
+.price-main .others-price{
+  margin: 50px auto 0;
+  flex-direction: column !important;
+  text-align: left;
+  width: 80%;
+  font-family: "Noto Sans CJK JP DemiLight";
+}
+.price-main .others-price h2{
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+}
+.price-main #cafe .others-price h2{
+  border-bottom: 1px solid #CE8383;
+}
+.price-main #bar .others-price h2{
+  border-bottom: 1px solid #73B5BA;
+}
+.price-main .others-price ul{
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: space-between;
+}
+.price-main .others-price ul li{
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  font-size: 1.6rem;
+  padding: 10px 0;
+  border-bottom:1px solid #BABABA ;
+  margin-bottom: 10px;
+}
+.price-main .others-price .top-btn{
+  width: 35%;
+  margin: 50px auto;
+  align-items: center;
+}
+
+.price-main .others-price .top-btn span {
+  line-height: 20px;
+}
+.price-main #cafe .others-price .top-btn{
+  background-color: #FCB0B0;
+}
+.price-main #bar .others-price .top-btn{
+  background-color: #73B5BA;
+}
+/*=====================================================================
+料金スページここまで
+===================================*/
+/*=====================================================================
+スタッフ募集ページ
+===================================*/
+.staff-main{
+  background: -moz-linear-gradient(left, #fcf5f5, #ffffff);
+  background: -webkit-linear-gradient(left, #fcf5f5, #ffffff);
+  background: linear-gradient(to right, #fcf5f5, #ffffff);
+  margin-top: 0;
+  padding-top:225px ;
+}
+.staff-main .wrapper>p{
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight:350 ;
+  margin-bottom:70px ;
+}
+.staff-main .yoko{
+  margin-top: 80px;
+}
+.staff-main .yoko .section-title {
+  font-size: 2.2rem;
+  margin: 0px 0;
+  font-weight: 350 !important;
+}
+.staff-main .yoko >div{
+  display: flex;
+  justify-content: space-around;
+}
+.staff-main .yoko >div .cast{
+  width: 45%;
+  margin-top: 100px; 
+  text-align: left;
+}
+.staff-main .yoko >div .cast h3{
+  font-weight: 350;
+  font-family: "Noto Sans CJK JP",sans-serif;
+  font-size: 1.8rem;
+  border-bottom:1px solid #CE8383 ;
+  padding:30px 0 10px ;
+  margin-bottom: 20px;
+}
+.staff-main .yoko >div .cast dl {
+  font-family: "Noto Sans CJK JP",sans-serif;
+  font-weight: 350;
+}
+.staff-main .yoko >div .cast dl dt{
+  position: relative;
+  font-size: 1.4rem;
+  background-color: #F6ECEC;
+  padding-left: 16px;
+}
+.staff-main .yoko >div .cast dl dt:before{ 
+  position: absolute;
+  display:inline-block; 
+  vertical-align: middle;
+  content:'';
+  width:6px;
+  height: 6px;
+  background: #CE8383;
+  border-radius: 50%;
+  margin: 0 0 0 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+.staff-main .yoko >div .cast dl dd{
+  font-size: 1.3rem;
+  padding:10px 0 10px 8px ;
+  
+}
+
+
+/*=====================================================================
+スタッフ募集ページここまで
+===================================*/
+/*=====================================================================
+レンタルページ
+===================================*/
+.rental-main {
+  padding: 220px 0 100px ;
+}
+.rental-main .wrapper>p{
+  font-size: 1.5rem;
+  font-weight: 350;
+  margin-bottom: 70px;
+}
+.rental-main .rental-content{
+  width: 90%;
+  text-align: left;
+  margin: 100px auto 0;
+}
+.rental-main .rental-content h2{
+  font-family:"Noto Sans CJK JP",sans-serif ;
+  font-size: 1.8rem;
+  font-weight: 350;
+  border-bottom:1px solid #CE8383 ;
+  padding-bottom: 10px;
+  
+}
+.rental-main .rental-content ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px  auto 0;
+}
+.rental-main .rental-content ul li{
+  width: 23%;
+}
+.rental-main .rental-content ul li h3 img{
+  width: 100%;
+}
+.rental-main .rental-content ul li p{
+  font-size: 2.2rem;
+  font-weight: 350;
+}
+/*=====================================================================
+レンタルページここまで
+===================================*/
+/*=====================================================================
+キャストページ
+===================================*/
+.cast-main{
+  padding-top:220px ;
+}
+.cast-main .wrapper>p{
+  font-size: 1.6rem;
+  margin-bottom: 70px;
+}
+.cast-main .wrapper .cast-content>a{
+  width: 100%;
+/*  max-width: 1010px;*/
+  background-color: #b3afaf;
+  height: 260px;
+  display: inline-block;
+  margin-bottom: 80px;
+}
+.cast-main .wrapper>h2 {
+  font-family: "Noto Sans CJK JP",sans-serif;
+  font-size: 1.2rem;
+  background-color: #F6EEEE;
+  text-align: left;
+  font-weight: 350;
+  padding: 10px 0 10px 20px;
+  margin-bottom: 60px;
+}
+.cast-main .wrapper>h2 span{
+  width: 16px;
+  height: 18px;
+  display: inline-block;
+}
+.cast-main .wrapper>h2 span img{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.cast-main ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+  
+
+}
+.cast-main ul li{
+  width: 30%;
+  font-family: "Noto Sans CJK JP",sans-serif;
+  text-align: left;
+  margin-bottom: 60px;
+}
+.cast-main ul li div div{
+  border-left: 1px solid #FCB0B0;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.cast-main ul li .cast-thum{
+  width:100% ;
+}
+.cast-main ul li .cast-thum img{
+  width:100% ;
+}
+.cast-main ul li .cast-posi{
+  font-weight: 350;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+.cast-main ul li .cast-name{
+  font-weight: normal;
+  font-size: 2.4rem;
+
+}
+.cast-main ul li p{
+  font-weight: 350;
+  font-size: 1.4rem;
+  color: #CE8383;
+  margin-top: 15px;
+}
+.cast-content>h1{
+  text-align: left;
+  font-family: "Noto Sans CJK JP",sans-serif;
+  font-weight: 350;
+  font-size: 2rem;
+  border-bottom: 1px solid #CE8383;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+/*=====================================================================
+キャストページここまで
+===================================*/
+@media(max-width:1200px){
+  html{
+    font-size: 7px !important;
+  }
+  .mar-two-imgs
+  {
+    margin-top:80px; 
+  }
+
+  .mar-top
+  {
+    margin-top:50px;
+  }
+  .top-text{
+  width:80%;
+  margin:auto;
+  padding-top:60px;
+}
+.text-part-size{
+  width:80%;
+  margin:auto;
+}
+.video-size
+{
+    width:30%;
+    padding-top: 20%;  
+    height: 0px;
+    position: relative;
+}
+  .question_text
+  {
+      font-size:14px;
+      font-weight:bold; 
+  }
+.video-size1
+{
+    width: 30%;
+    padding-top: 20%;
+    height: 0px;
+    position: relative;
+    float: right;
+}
+.video-size-change
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.mar-set15
+{
+    margin-top: -10px;
+}
+.mar-set30
+{
+    margin-top: 0px;
+}
+.mar-set100
+{
+    margin-top: 55px;
+}
+.mar-set130
+{
+    margin-top: 130px;
+}
+.video-internal
+{
+  margin-top:25px;
+}
+.pc-top-pr
+{
+    font-size:30px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+}
+.pc-top-setext
+{
+    font-size:38px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+}
+.pc-top-thtext
+{
+    font-size:38px;
+    font-family:"Yu Gothic";
+    margin-left:13%;
+    font-weight:bold;
+}
+.pc-top-fotext
+{
+    font-size:24px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+}
+.gold-part
+{
+  padding:15px 20% 0 20%;
+  display: flex;
+}
+.line-style
+{
+  width:100%;
+  display: flex;
+}
+.text-block 
+{
+  background-image: url("../image/main_img.jpg");
+  width:850px;
+  height:422px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text-block-st 
+{
+  margin-left: 10px;
+}
+.gold-img
+{
+
+  width:33%;
+}
+.gold-part-st
+{
+  margin:auto;
+  width:80%;
+}
+.gold-part-text-st1
+{
+  color:red;
+  font-size:25px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-text-st2
+{
+  color:red;
+  font-size:42px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-text-st3
+{
+  color:red;
+  font-size:47px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-combine
+{
+  display:flex;
+}
+.gold-part-combine1
+{
+  display: flex;
+
+}
+.video-width
+{
+  width:70%;
+}
+.text-part
+{
+  width:80%;
+  margin:auto;
+}
+.text-part-st1
+{
+  color:black;
+  font-size:15px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st2
+{
+  color:black;
+  font-size:15px;
+  font-family: "Yu Gothic";
+  font-weight:normal;
+}
+.text-part-st3
+{
+  color:red;
+  font-size:20px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+  text-decoration: underline;
+}
+.text-part-st4
+{
+  color:black;
+  font-size:30px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st5
+{
+  color:black;
+  font-size:21px;
+  font-family: "Yu Gothic";
+}
+.text-part-st6
+{
+  color:black;
+  font-size:16px;
+  font-family: "Yu Gothic";
+}
+.text-part-st7
+{
+  color:red;
+  font-size:16px;
+  font-family: "Yu Gothic";
+}
+.text-part-st8
+{
+  color:red;
+  font-size:38px;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+}
+.text-part-st9
+{
+  color:red;
+  font-size:30px;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+  margin-top: 10px;
+}
+.text-part-st10
+{
+  color:black;
+  font-size:30px;
+  font-family: "Yu Gothic";
+  
+}
+.text-part-st11
+{
+  color:red;
+  font-size:23px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+  text-decoration: underline;
+  
+}
+.text-yellow-part
+{
+  padding:30px 0px;
+}
+.text-yellow-part-bg
+{
+  padding: 15px;
+  width:100%;
+  margin:30px 0px;
+  background-color: #F8D87B;
+}
+.video-part{
+  padding:10px 5px;
+}
+.video-textpart
+{
+  padding: 0px 10px;
+  margin-left:40px;
+  margin-top:-5px;
+  border:1px solid black;
+  width:70%;
+}
+.video-textpart-title
+{
+  font-family: "Calibri";
+  font-size:    44px;
+}
+.video-textpart-subtitle
+{
+  font-family: "Yu Gothic";
+  font-size:    25px;
+  margin-top:   23px;
+}
+.video-textpart-content
+{
+/*  margin-top: 50px;*/
+  font-family: "Yu Gothic";
+  font-size:    16px;
+}
+.las-env
+{
+  float:right;width:20%;
+}
+.two-imgs-po
+{
+  width: 70%;
+  display: flex;
+}
+.video-textpart-explain
+{
+  margin-top: 30px;
+  width: 100%;
+  font-family: "Yu Gothic";
+  font-size:    14px;
+}
+
+}
+/*========================================================
+タブレットサイズ
+===================================*/
+@media(max-width:960px){
+  html{
+    font-size: 7px !important;
+  }
+    .mar-two-imgs
+  {
+    
+  }
+   .question_text
+  {
+      font-size: ;
+      font-weight:bold; 
+  }
+    .mar-top
+  {
+    margin-top:50px;
+  }
+   .top-text{
+    width:80%;
+    margin:auto;
+    padding-top:60px;
+}
+.text-part-size{
+  width:80%;
+  margin:auto;
+}
+.video-size
+{
+    width:30%;
+    padding-top: 20%;  
+    height: 0px;
+    position: relative;
+}
+.video-size1
+{
+    width: 30%;
+    padding-top: 20%;
+    height: 0px;
+    position: relative;
+    float: right;
+}
+.video-size-change
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.mar-set15
+{
+    margin-top: -5px;
+}
+.mar-set30
+{
+    margin-top: 15px;
+}
+.mar-set100
+{
+    margin-top: 55px;
+}
+.mar-set130
+{
+    margin-top: 130px;
+}
+.video-internal
+{
+  margin-top:25px;
+}
+.pc-top-pr
+{
+    font-size:28px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+}
+.pc-top-setext
+{
+    font-size:34px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+}
+.pc-top-thtext
+{
+    font-size:34px;
+    font-family:"Yu Gothic";
+    margin-left:13%;
+    font-weight:bold;
+}
+.pc-top-fotext
+{
+    font-size:19px;
+    font-family:"Yu Gothic";
+    font-weight:bold;
+}
+.gold-part
+{
+  padding:13px 13% 0 13%;
+  display: flex;
+}
+.line-style
+{
+  width:100%;
+  display: flex;
+}
+.text-block 
+{
+  width: 87%;
+  height: 350px;
+  background-image: url('../image/main_img.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.text-block-st 
+{
+/*  margin-left: 40px;*/
+}
+.gold-img
+{
+
+  width:33%;
+}
+.gold-part-st
+{
+  margin:auto;
+  width:80%;
+}
+.gold-part-text-st1
+{
+  color:red;
+  font-size:21px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-text-st2
+{
+  color:red;
+  font-size:30px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-text-st3
+{
+  color:red;
+  font-size:33px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-combine
+{
+  display:flex;
+}
+.gold-part-combine1
+{
+  display: flex;
+
+}
+.video-width
+{
+  width:70%;
+}
+.text-part
+{
+  width:80%;
+  margin:auto;
+}
+.text-part-st1
+{
+  color:black;
+  font-size:14px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st2
+{
+  color:black;
+  font-size:14px;
+  font-family: "Yu Gothic";
+  font-weight:normal;
+}
+.text-part-st3
+{
+  color:red;
+  font-size:17px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+  text-decoration: underline;
+}
+.text-part-st4
+{
+  color:black;
+  font-size:30px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st5
+{
+  color:black;
+  font-size:18px;
+  font-family: "Yu Gothic";
+}
+.text-part-st6
+{
+  color:black;
+  font-size:16px;
+  font-family: "Yu Gothic";
+}
+.text-part-st7
+{
+  color:red;
+  font-size:16px;
+  font-family: "Yu Gothic";
+}
+.text-part-st8
+{
+  color:red;
+  font-size:32px;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+}
+.text-part-st9
+{
+  color:red;
+  font-size:23px;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+  margin-top: 10px;
+}
+.text-part-st10
+{
+  color:black;
+  font-size:30px;
+  font-family: "Yu Gothic";
+  
+}
+.text-part-st11
+{
+  color:red;
+  font-size:20px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+  text-decoration: underline;
+  
+}
+.text-yellow-part
+{
+  padding:30px 0px;
+}
+.text-yellow-part-bg
+{
+  padding: 15px;
+  width:100%;
+  margin:30px 0px;
+  background-color: #F8D87B;
+}
+.video-part{
+  padding:10px 5px;
+}
+.video-textpart
+{
+  padding: 0px 10px;
+  margin-left:20px;
+  margin-top:-5px;
+  border:1px solid black;
+  width:70%;
+}
+.video-textpart-title
+{
+  font-family: "Calibri";
+  font-size:    40px;
+}
+.video-textpart-subtitle
+{
+  font-family: "Yu Gothic";
+  font-size:    15px;
+  margin-top:   30px;
+}
+.video-textpart-content
+{
+  font-family: "Yu Gothic";
+  font-size:    13px;
+}
+.las-env
+{
+  float:right;width:20%;
+}
+.two-imgs-po
+{
+  width: 70%;
+  display: flex;
+}
+.video-textpart-explain
+{
+  margin-top: 30px;
+  width: 100%;
+  font-family: "Yu Gothic";
+  font-size:    14px;
+}
+}
+@media(max-width:768px){
+  html{
+    font-size: 9px !important;
+  }
+    .mar-two-imgs
+  {
+    margin-top:100px; 
+  }
+   .question_text
+  {
+    font-size: 10px;
+      font-weight:bold; 
+  }
+  .mar-top
+  {
+    margin-top:40px;
+  }
+  .top-text{
+      width:90%;
+      margin:auto;
+      padding-top:50px;
+  }
+  .text-part-size{
+  width:80%;
+  margin:auto;
+}
+.video-size
+{
+    width:30%;
+    padding-top: 20%;  
+    height: 0px;
+    position: relative;
+}
+.video-size1
+{
+    width: 30%;
+    padding-top: 20%;
+    height: 0px;
+    position: relative;
+    float: right;
+}
+.video-size-change
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.mar-set15
+{
+    margin-top: 5px;
+}
+.mar-set30
+{
+    margin-top: 9px;
+}
+.mar-set100
+{
+    margin-top: 33px;
+}
+.mar-set130
+{
+    margin-top: 130px;
+}
+.video-internal
+{
+  margin-top:25px;
+}
+  .pc-top-pr
+  {
+      font-size:20px;
+      font-family:"Yu Gothic";
+      font-weight:bold;
+  }
+  .pc-top-setext
+  {
+      font-size:28px;
+      font-family:"Yu Gothic";
+      font-weight:bold;
+  }
+  .pc-top-thtext
+  {
+      font-size:28px;
+      font-family:"Yu Gothic";
+      margin-left:13%;
+      font-weight:bold;
+  }
+  .pc-top-fotext
+  {
+      font-size:15px;
+      font-family:"Yu Gothic";
+      font-weight:bold;
+  }
+  .gold-part
+{
+  padding:13px 12% 0 12%;
+  display: flex;
+}
+.line-style
+{
+  width:100%;
+  display: flex;
+}
+.text-block 
+{
+  width: 87%;
+  height: 250px;
+  background-image: url('../image/main_img.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.text-block-st 
+{
+/*  margin-left: 40px;*/
+}
+.gold-img
+{
+
+  width:33%;
+}
+.gold-part-st
+{
+  margin:auto;
+  width:80%;
+}
+.gold-part-text-st1
+{
+  color:red;
+  font-size:16px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-text-st2
+{
+  color:red;
+  font-size:25px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-text-st3
+{
+  color:red;
+  font-size:23px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-combine
+{
+  display:flex;
+}
+.gold-part-combine1
+{
+  display: flex;
+
+}
+.text-part
+{
+  width:80%;
+  margin:auto;
+}
+.text-part-st1
+{
+  color:black;
+  font-size:12px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st2
+{
+  color:black;
+  font-size:12px;
+  font-family: "Yu Gothic";
+  font-weight:normal;
+}
+.text-part-st3
+{
+  color:red;
+  font-size:15px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+  text-decoration: underline;
+}
+.text-part-st4
+{
+  color:black;
+  font-size:18px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st5
+{
+  color:black;
+  font-size:14px;
+  font-family: "Yu Gothic";
+}
+.text-part-st6
+{
+  color:black;
+  font-size:14px;
+  font-family: "Yu Gothic";
+}
+.text-part-st7
+{
+  color:red;
+  font-size:14px;
+  font-family: "Yu Gothic";
+}
+.text-part-st8
+{
+  color:red;
+  font-size:27px;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+}
+.text-part-st9
+{
+  color:red;
+  font-size:18px;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+  margin-top: 10px;
+}
+.text-part-st10
+{
+  color:black;
+  font-size:20px;
+  font-family: "Yu Gothic";
+  
+}
+.text-part-st11
+{
+  color:red;
+  font-size:17px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+  text-decoration: underline;
+  
+}
+.text-yellow-part
+{
+  padding:3px 0px;
+}
+.text-yellow-part-bg
+{
+  padding: 14px;
+  width:100%;
+  margin:30px 0px;
+  background-color: #F8D87B;
+}
+.video-part{
+  padding:10px 5px;
+}
+.video-textpart
+{
+  padding: 0px 10px;
+  margin-left:20px;
+  margin-top:-5px;
+  border:1px solid black;
+  width:70%;
+}
+.video-textpart-title
+{
+  font-family: "Calibri";
+  font-size:    25px;
+}
+.video-textpart-subtitle
+{
+  font-family: "Yu Gothic";
+  font-size:    13px;
+  margin-top:   13px;
+}
+.video-textpart-content
+{
+  font-family: "Yu Gothic";
+  font-size:    9.8px;
+}
+.las-env
+{
+  float:right;width:20%;
+}
+.two-imgs-po
+{
+  width: 70%;
+  display: flex;
+}
+.video-textpart-explain
+{
+  margin-top: 20px;
+  width: 100%;
+  font-family: "Yu Gothic";
+  font-size:    12px;
+  font-weight:bold;
+}
+}
+/*==================================================
+タブレットサイズここまで
+===================================*/
+/*==================================================
+スマホサイズ
+===================================*/
+@media(max-width:540px){
+  .pc-menu{
+    display: none;
+  }
+  .sp-menu{
+    display: block;
+  }
+  .page-header div{
+    transform: translate(50%, 0);
+    padding: 20px 0;
+    font-size: 3rem;
+    bottom: 0;
+  }
+  .wrapper{
+    margin:20px 0px;
+    padding: 0 4%;
+  }
+   .mar-two-imgs
+  {
+    margin-top:13px; 
+  }
+   .question_text
+  {
+    font-size: 10px;
+      font-weight:bold; 
+  }
+    .mar-top
+  {
+    margin-top:30px;
+  }
+  .top-text{
+  width:92%;
+  margin:auto;
+  padding:30px 0% 0px 0%;
+  }
+  .text-part-size{
+  padding: 10px 0px;
+  width:100%;
+  margin:auto;
+}
+.video-size
+{
+    width: 100%;
+    padding-top: 70%;
+    height: 0px;
+    position: relative;
+}
+.video-size1
+{
+    width: 100%;
+    padding-top: 70%;
+    height: 0px;
+    position: relative;
+    float: unset;
+}
+.video-size-change
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.mar-set15
+{
+    margin-top: 15px;
+}
+.mar-set30
+{
+    margin-top: 0px;
+}
+.mar-set100
+{
+    margin-top: 37px;
+}
+.mar-set130
+{
+    padding-top: 20px;
+    margin-top: 0px;
+}
+.video-internal
+{
+  margin-top:5px;
+}
+.envelop_position
+{
+    padding: 0px 10px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .pc-top-pr
+  {
+      font-size:13px;
+      font-family:"Yu Gothic";
+      font-weight:bold;
+  }
+  .pc-top-setext
+  {
+      font-size:21px;
+      font-family:"Yu Gothic";
+      font-weight:bold;
+  }
+  .pc-top-thtext
+  {
+      font-size:21px;
+      font-family:"Yu Gothic";
+      margin-left:8%;
+      font-weight:bold;
+  }
+  .pc-top-fotext
+  {
+      font-size:9px;
+      font-family:"Yu Gothic";
+      font-weight:bold;
+  }
+  .gold-part
+{
+  padding:13px 6% 0 6%;
+  display: flex;
+}
+.line-style
+{
+  width:100%;
+  display: flex;
+}
+.text-block 
+{
+  width: 100%;
+  height: 200px;
+  background-image: url('../image/main_img.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  line-height: 21px;
+}
+.text-block-st 
+{
+/*  margin-left: 40px;*/
+}
+.gold-img
+{
+
+  width:33%;
+}
+.gold-part-st
+{
+  margin:auto;
+  width:80%;
+}
+.gold-part-text-st1
+{
+  color:red;
+  font-size:12px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-text-st2
+{
+  color:red;
+  font-size:18px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-text-st3
+{
+  color:red;
+  font-size:22px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.gold-part-combine1
+{
+  display: flex;
+  flex-direction: column;
+}
+.video-width
+{
+  width:100%;
+}
+.text-part
+{
+  width:80%;
+  margin:auto;
+}
+.text-part-st1
+{
+  color:black;
+  font-size:10px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st2
+{
+  color:black;
+  font-size:10px;
+  font-family: "Yu Gothic";
+  font-weight:normal;
+}
+.text-part-st3
+{
+  color:red;
+  font-size:13px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+  text-decoration: underline;
+}
+.text-part-st4
+{
+  color:black;
+  font-size:20px;
+  font-family: "Yu Gothic";
+  font-weight:bold;
+}
+.text-part-st5
+{
+  color:black;
+  font-size:12px;
+  font-family: "Yu Gothic";
+}
+.text-part-st6
+{
+  color:black;
+  font-size:12px;
+  font-family: "Yu Gothic";
+}
+.text-part-st7
+{
+  color:red;
+  font-size:12px;
+  font-family: "Yu Gothic";
+}
+.text-part-st8
+{
+  color:red;
+  font-size:18px;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+}
+.text-part-st9
+{
+  color:red;
+  font-size:12px;
+  font-family: "Yu Gothic";
+  font-weight: bold;
+  margin-top: 7px;
+}
+.text-part-st10
+{
+  color:black;
+  font-size:25px;
+  font-family: "Yu Gothic";
+  
+}
+.text-yellow-part
+{
+/*  padding:30px 0px;*/
+}
+.text-yellow-part-bg
+{
+  padding: 12px;
+  width:100%;
+  margin:15px 0px;
+  background-color: #F8D87B;
+}
+.video-part{
+  padding:10px 5px;
+}
+.video-textpart
+{
+  padding: 0px 10px;
+  margin-left:0px;
+  margin-top:10px;
+  border:1px solid black;
+  width:100%;
+}
+.video-textpart-title
+{
+  font-family: "Calibri";
+  font-size:    25px;
+}
+.video-textpart-subtitle
+{
+  font-family: "Yu Gothic";
+  font-size:    15px;
+  margin-top:   14px;
+}
+.video-textpart-content
+{
+  margin-top: 0px;
+  font-family: "Yu Gothic";
+  font-size:    12px;
+}
+.video-top
+{
+  margin-top: 20px;
+}
+.las-env
+{
+  width:30%;
+  float: none;
+  margin:auto;
+
+}
+.two-imgs-po
+{
+  width: 100%;
+  display: flex;
+}
+.video-textpart-explain
+{
+  margin-top: 20px;
+  width: 100%;
+  font-family: "Yu Gothic";
+  font-size:    12px;
+}
+  body{
+/*    padding-top: 45px;*/
+  }
+ 
+  /*==============================
+ヘッダー
+==========*/
+header>div ul li {
+  margin-left: 0%;
+}
+header>div ul li a img {
+  width: 22px;
+}
+  header h1{
+    width: 45%;
+    max-width: 150px;
+  }
+  header>div ul {
+    width: 30%;
+    margin-right: 3%;
+    align-items: center;
+   
+  } 
+  header>div ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    vertical-align: bottom;
+}
+  .hamburger {
+    right: 20px;
+    top: 5px;
+    width: 23px;
+    height: 14px;
+
+}
+.hamburger span{
+  width: 23px;
+  height: 1px;
+}
+.globalMenuSp{
+  padding-bottom: 100px;
+}
+.globalMenuSp nav ul {
+  flex-direction: column;
+  align-items: center;
+}
+.globalMenuSp nav ul li {
+  width: 85%;
+  padding-bottom: 10px;
+  
+}
+.globalMenuSp div {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.globalMenuSp div>a {
+  width: 85%;
+  margin: 10px 4%;
+  padding: 6% 0;
+}
+/*==============================
+ヘッダーここまで
+==========*/
+/*==============================
+コンセプト
+==========*/
+main>h3.wrapper {
+  width: 97%;
+}
+#concept iframe {
+  width: 85% !important;
+  height: 50vw;
+}
+
+#concept br{
+  display: none;
+}
+#concept .wrapper>p {
+  line-height: 25px;
+  display: inline-block;
+  width: 85%;
+  margin: 50px auto 0;
+  text-align: left;
+}
+/*==============================
+コンセプトここまで
+==========*/
+/*==============================
+トピックス
+==========*/
+.topics {
+  width: 85%;
+  text-align: left;
+  margin: 50px  auto 0;
+  
+}
+.topics h1 {
+  display: inline;
+  font-size: 3rem;
+  margin: 0 0 0 7.5% ;
+}
+.topics p{
+  width: 50%;
+  text-align: right;
+}
+.topics p a{
+  width: 100%;
+
+}
+.topics ul {
+  flex-direction: column;
+  align-items: center;
+}
+.topics ul li{
+  width: 85%;
+  margin: 5% auto 0;
+  border-bottom: 1px solid #99DDE2;
+  padding-bottom: 3%;
+}
+.topics ul li:first-child::after{
+  display: none;
+}
+.topics ul li h2 {
+  width: 40%;
+  margin-right: 4%;
+}
+/*==============================
+トピックスここまで
+==========*/
+/*==============================
+cafe
+==========*/
+#cafe {
+  padding-bottom: 80px;
+}
+.textpart-bar {
+  background: linear-gradient(#ffffff,#fcf5f5,#fcf5f5,#fcf5f5 );
+  margin-top: 0;
+}
+.textpart-bar .wrapper>div>div {
+/*  margin: 0px auto 0 !important;*/
+}
+.textpart-bar .wrapper >div {
+  flex-direction: column !important;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.textpart-bar .wrapper>div h3 {
+  width: 100%;
+}
+.textpart-bar .wrapper>div>div {
+/*  text-align: left;
+  margin-top: 0px;*/
+}
+.textpart-bar .top-btn span {
+  font-family: "Noto Sans CJK JP", sans-serif;
+  font-size: 2.1rem;
+  
+}
+.rental>div {
+  flex-direction: column;
+  align-items: center;
+}
+.rental>div h1 {
+  width: 100%;
+}
+.rental>div>div {
+  width: 85%;
+}
+.rental>div>div {
+  width: 85%;
+  margin: 30px auto 0 ;
+  text-align: left;
+}
+
+.rental>div p.sp-menu {
+  font-size: 1.8rem;
+  margin-bottom: 0px;
+}
+.rental>div p:nth-child(2) {
+  margin-bottom: 40px;
+}
+.time>p {
+  margin:20px auto 40px ;
+}
+/*==============================
+cafeここまで
+==========*/
+/*==============================
+カレー
+==========*/
+.curry .wrapper>div>div {
+  margin-left: 0;
+}
+.curry .wrapper>div {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.curry .wrapper>div>div {
+  width: 100%;
+}
+.curry .wrapper>div>div p.sp-menu{
+  font-size: 1.6rem;
+  margin: 30px auto;
+  font-weight: 350;
+}
+.curry .time{
+  margin-bottom: 30px;
+}
+.curry .wrapper>div>h1 {
+  width: 85%;
+  margin-top: 30px;
+}
+/*==============================
+カレーここまで
+==========*/
+/*==============================
+sns
+==========*/
+#sns {
+
+  padding: 80px 0;
+}
+#sns .wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+#sns .wrapper>div {
+  width: 85%;
+  margin-bottom: 30px;
+}
+#sns .wrapper>div:last-child .top-btn {
+  width: 75%;
+  text-align: center;
+}
+#sns .wrapper>div:last-child {
+  background: none;
+}
+#sns .wrapper>div:last-child .section-title span {
+  font-size: 4rem;
+}
+/*==============================
+snsここまで
+==========*/
+/*==============================
+footer
+==========*/
+footer{
+  margin: 0;
+}
+footer iframe{
+  height: 100vw;
+}
+/*==============================
+footerここまで
+==========*/
+/*==============================
+トピックスページ
+==========*/
+.page-header .topics-.page-title.page-title{
+  font-family: "Roboto";
+  font-weight: 100;
+  
+}
+.topics-main {
+  background: linear-gradient(#fcf5f5,#ffffff,#fcf5f5,#fcf5f5 );
+  margin-top: 0;
+  padding: 60px 0;
+}
+.topics-main ul {
+  flex-direction: column;
+  align-items: center;
+}
+.topics-main ul li {
+  width: 85%;
+}
+.page-nation a, .page-nation span {
+  width: 30px;
+  height: 30px;
+  margin: 2px 2%;
+  line-height:27px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #B7B7B7;
+  transition: .3s;
+  border-radius: 50%;
+  font-family: "Roboto",sans-serif;
+  border: 2px solid #B7B7B7;
+}
+.page-contact .wrapper>div .section-title span{
+  font-size: 3.5rem;
+
+}
+/*==============================
+トピックスページここまで
+==========*/
+/*==============================
+料金ページ
+==========*/
+
+.price-main .textpart-bar .wrapper>div h3 {
+  width: 106%;
+}
+.price-main #cafe {
+  padding-bottom: 40px;
+}
+.price-main {
+  padding-top: 60px;
+  background: linear-gradient(#fcf5f5,#fcf5f5,#ffffff,#fcf5f5 );
+  margin-top: 0;
+}
+.price-main .textpart-bar {
+  background: none;
+}
+.price-main .textpart-bar .time {
+  padding: 5% 10%;
+  margin: 40px auto;
+  width: 85%;
+}
+.textpart-bar .wrapper>div>div>p {
+  width: 100%;
+  margin: 0 auto 0px;
+}
+.price-main .others-price h2 {
+  width: 85%;
+  margin: 0 auto 10px;
+}
+.price-main .others-price ul {
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  margin-bottom: 30px;
+}
+.price-main .others-price ul li{
+  width: 100%;
+}
+.price-main .others-price .top-btn {
+  width: 80%;
+}
+.price-main .rental .top-btn {
+  width: 70%;
+}
+.page-contact .top-btn{
+  width: 65% !important;
+  font-size: 2.3rem !important;
+}
+
+/*==============================
+料金ページここまで
+==========*/
+/*==============================
+スタッフ募集ページ
+==========*/
+.staff-main{
+  padding-top: 40px;
+  
+}
+.staff-main .wrapper>p{
+  text-align: left;
+  
+}
+.staff-main .wrapper br{
+  display: none;
+}
+.staff-main .yoko >div {
+  flex-direction: column;
+  align-items: center;
+}
+.staff-main .yoko >div .cast {
+  width: 85%;
+  margin-top: 0;
+
+}
+.staff-main .yoko >div .cast:last-child {
+  width: 85%;
+  margin-top: 100px;
+}
+.staff-main .yoko >div .cast dl {
+  margin-bottom: 30px;
+}
+
+/*==============================
+スタッフ募集ページここまで
+==========*/
+/*==============================
+レンタルページ
+==========*/
+.rental-main {
+  padding: 40px 0 0 ;
+}
+.rental-main .wrapper>p{
+  font-size: 1.7rem;
+  text-align: left;
+}
+.rental-main .wrapper br{
+  display: none;
+}
+
+
+.rental-main .rental-content h2{
+  font-size: 2rem;
+}
+.rental-main .rental-content ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px  auto 0;
+}
+.rental-main .rental-content ul li{
+  width: 47%;
+  margin-bottom: 20px;
+}
+.rental-main .rental-content ul li h3 img{
+  width: 100%;
+}
+.rental-main .rental-content ul li p{
+  font-size: 2.2rem;
+  font-weight: 350;
+}
+/*==============================
+レンタルページここまで
+==========*/
+/*==============================
+キャストページ
+==========*/
+.cast-main{
+  padding-top: 40px;
+}
+.cast-main .wrapper>p {
+  margin-bottom: 40px;
+}
+.cast-main ul li{
+  width: 48%;
+  margin-bottom: 40px;
+}
+.cast-main ul li div div{
+  margin-top: 10px;
+  padding-left: 0px;
+  border: none;
+}
+
+.cast-main ul li .cast-posi{
+
+  margin-bottom: 3px;
+}
+
+.cast-main ul li p{
+  margin-top: 3px;
+}
+
+/*==============================
+キャストページここまで
+==========*/
+
+
+}
+/*==================================================
+スマホサイズここまで
+===================================*/
+
+
