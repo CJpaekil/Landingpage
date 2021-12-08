@@ -139,6 +139,9 @@ p,a{
 }
 .pc-top-thtext
 {
+     text-shadow: 2px 2px white;
+    color:#19488D;
+    color:blue;
     font-size:38px;
     font-family:"Yu Gothic";
     margin-left:13%;
@@ -162,7 +165,7 @@ p,a{
 }
 .text-block 
 {
-  background-image: url("../image/main_img.jpg");
+  background-image: url("../image/main_img.png");
   width:850px;
   height:422px;
   margin:auto;
@@ -982,8 +985,8 @@ cafe,bar共通部分ここまで
 .video-size
 {
     width:30%;
-    padding-top: 20%;  
-    height: 0px;
+/*    padding-top: 20%;  
+    height: 0px;*/
     position: relative;
 }
 .video-size1
@@ -1034,13 +1037,18 @@ cafe,bar共通部分ここまで
 }
 .pc-top-thtext
 {
-    font-size:38px;
+/* text-shadow: 10px 10px #ffffff;*/
+   text-shadow: 3px 3px white;
+    color:#19488D;
+    font-size:47px;
     font-family:"Yu Gothic";
     margin-left:13%;
     font-weight:bold;
 }
 .pc-top-fotext
 {
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
     font-size:24px;
     font-family:"Yu Gothic";
     font-weight:bold;
@@ -1057,7 +1065,7 @@ cafe,bar共通部分ここまで
 }
 .text-block 
 {
-  background-image: url("../image/main_img.jpg");
+  background-image: url("../image/main_img.png");
   width:80%;
   height:472px;
   margin:auto;
@@ -1173,6 +1181,16 @@ cafe,bar共通部分ここまで
   font-family: "Yu Gothic";
   font-weight: bold;
 }
+.bg-set
+{
+  width: 100%;
+  height: 100vh;
+  background: url(https://shikin-pro.com/images/factoring/main-bg.jpg) top center;
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  overflow-y: auto;
+}
 .text-part-st9
 {
   color:red;
@@ -1187,6 +1205,15 @@ cafe,bar共通部分ここまで
   font-size:30px;
   font-family: "Yu Gothic";
   
+}
+.header_inner
+{
+    height: 50px;
+}
+.header_simple_inner
+{
+    max-width: 980px;
+    justify-content: flex-start;
 }
 .text-part-st11
 {
@@ -1207,6 +1234,12 @@ cafe,bar共通部分ここまで
   width:100%;
   margin:30px 0px;
   background-color: #F8D87B;
+}
+.header_first
+{
+  padding-top: 5px;
+  padding-left: 20px;
+  background-color: #005aa3;
 }
 .video-part{
   padding:10px 5px;
@@ -1236,6 +1269,13 @@ cafe,bar共通部分ここまで
   font-family: "Yu Gothic";
   font-size:    20px;
   font-weight: bold;
+}
+.header_logo
+{
+    color:white;
+    font-size:29px;
+    width: 270px;
+    height: 38px;
 }
 .las-env
 {
@@ -1931,6 +1971,38 @@ footerここまで
   html{
     font-size: 7px !important;
   }
+.header_logo
+{
+    color:white;
+    font-size:29px;
+    width: 270px;
+    height: 38px;
+}
+  .header_inner
+{
+    height: 50px;
+}
+.header_simple_inner
+{
+    max-width: 980px;
+    justify-content: flex-start;
+}
+  .header_first
+{
+    padding-top: 5px;
+  padding-left: 20px;
+  background-color: #005aa3;
+}
+  .bg-set
+{
+  width: 100%;
+  height: 100vh;
+  background: url(https://shikin-pro.com/images/factoring/main-bg.jpg) top center;
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  overflow-y: auto;
+}
   .mar-two-imgs
   {
     margin-top:80px; 
@@ -2009,6 +2081,8 @@ footerここまで
 }
 .pc-top-thtext
 {
+     text-shadow: 3px 3px white;
+    color:#19488D;
     font-size:38px;
     font-family:"Yu Gothic";
     margin-left:13%;
@@ -2032,7 +2106,7 @@ footerここまで
 }
 .text-block 
 {
-  background-image: url("../image/main_img.jpg");
+  background-image: url("../image/main_img.png");
   width:850px;
   height:422px;
   background-repeat: no-repeat;
@@ -2233,6 +2307,38 @@ footerここまで
   html{
     font-size: 7px !important;
   }
+.header_logo
+{
+    color:white;
+    font-size:29px;
+    width: 270px;
+    height: 38px;
+}
+  .header_inner
+{
+    height: 50px;
+}
+.header_simple_inner
+{
+    max-width: 980px;
+    justify-content: flex-start;
+}
+  .header_first
+{
+    padding-top: 5px;
+  padding-left: 15px;
+  background-color: #005aa3;
+}
+  .bg-set
+{
+  width: 100%;
+  height: 100vh;
+  background: url(https://shikin-pro.com/images/factoring/main-bg.jpg) top center;
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  overflow-y: auto;
+}
     .mar-two-imgs
   {
     
@@ -2310,6 +2416,8 @@ footerここまで
 }
 .pc-top-thtext
 {
+     text-shadow: 2px 2px white;
+    color:#19488D;
     font-size:34px;
     font-family:"Yu Gothic";
     margin-left:13%;
@@ -2335,7 +2443,7 @@ footerここまで
 {
   width: 87%;
   height: 350px;
-  background-image: url('../image/main_img.jpg');
+  background-image: url("../image/main_img.png");
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -2530,6 +2638,38 @@ footerここまで
   html{
     font-size: 9px !important;
   }
+.header_logo
+{
+    color:white;
+    font-size:29px;
+    width: 270px;
+    height: 38px;
+}
+  .header_inner
+{
+    height: 50px;
+}
+.header_simple_inner
+{
+    max-width: 980px;
+    justify-content: flex-start;
+}
+  .header_first
+{
+    padding-top: 5px;
+  padding-left: 13px;
+  background-color: #005aa3;
+}
+  .bg-set
+{
+  width: 100%;
+  height: 110vh;
+  background: url(https://shikin-pro.com/images/factoring/main-bg.jpg) top center;
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  overflow-y: auto;
+}
     .mar-two-imgs
   {
     margin-top:100px; 
@@ -2607,6 +2747,8 @@ footerここまで
   }
   .pc-top-thtext
   {
+       text-shadow: 2px 2px white;
+    color:#19488D;
       font-size:28px;
       font-family:"Yu Gothic";
       margin-left:13%;
@@ -2632,7 +2774,7 @@ footerここまで
 {
   width: 87%;
   height: 250px;
-  background-image: url('../image/main_img.jpg');
+  background-image: url("../image/main_img.png");
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -2830,6 +2972,38 @@ footerここまで
   .pc-menu{
     display: none;
   }
+.header_logo
+{
+    color:white;
+    font-size:20px;
+    width: 270px;
+    height: 38px;
+}
+  .header_inner
+{
+    height: 40px;
+}
+.header_simple_inner
+{
+    max-width: 980px;
+    justify-content: flex-start;
+}
+  .header_first
+{
+  padding-top: 7px;
+  padding-left: 10px;
+  background-color: #005aa3;
+}
+  .bg-set
+{
+  width: 100%;
+  height: 80vh;
+  background: url(https://shikin-pro.com/images/factoring/main-bg.jpg) top center;
+  background-size: cover;
+  position: relative;
+  background-size: cover;
+  overflow-y: auto;
+}
   .sp-menu{
     display: block;
   }
@@ -2930,6 +3104,8 @@ footerここまで
   }
   .pc-top-thtext
   {
+       text-shadow: 2px 2px white;
+    color:#19488D;
       font-size:21px;
       font-family:"Yu Gothic";
       margin-left:8%;
@@ -2955,7 +3131,7 @@ footerここまで
 {
   width: 100%;
   height: 200px;
-  background-image: url('../image/main_img.jpg');
+  background-image: url("../image/main_img.png");
   background-repeat: no-repeat;
   background-size: contain;
   line-height: 21px;
