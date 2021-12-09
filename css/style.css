@@ -68,6 +68,7 @@ p,a{
   }
   .question_text
   {
+      background-color:#E9E8E9;
       font-size: 20px;
       font-weight:bold; 
   }
@@ -248,10 +249,11 @@ p,a{
 }
 .text-part-st4
 {
-  color:black;
+  color:white;
   font-size:30px;
   font-family: "Yu Gothic";
   font-weight:bold;
+      background-image: url(../image/title.png);
 }
 .text-part-st5
 {
@@ -304,7 +306,7 @@ p,a{
 }
 .text-yellow-part
 {
-  padding:30px 0px;
+/*  padding:30px 0px;*/
 }
 .text-yellow-part-bg
 {
@@ -1152,15 +1154,22 @@ cafe,bar共通部分ここまで
   font-weight:bold;
   text-decoration: underline;
 }
+.part-interval
+{
+  margin-top: 50px;
+}
 .text-part-st4
 {
-  color:black;
+  color:white;
+  padding-top: 10px;
   font-size:32px;
   font-family: "Yu Gothic";
   font-weight:bold;
+      background-image: url(../image/title.png);
 }
 .text-part-st5
 {
+  margin-top: 25px;
   color:black;
   font-size:24px;
   font-family: "Yu Gothic";
@@ -1244,7 +1253,7 @@ cafe,bar共通部分ここまで
 }
 .text-yellow-part
 {
-  padding:30px 0px;
+/*  padding:30px 0px;*/
 }
 .text-yellow-part-bg
 {
@@ -1301,12 +1310,13 @@ cafe,bar共通部分ここまで
 }
 .question_text
 {
+  background-color:#E9E8E9;
   font-size: 20px;
   font-weight: bold;
 }
   .mar-two-imgs
   {
-    margin-top:100px; 
+ /*   margin-top:100px; */
   }
 .two-imgs-po
 {
@@ -1989,6 +1999,10 @@ footerここまで
   html{
     font-size: 7px !important;
   }
+  .part-interval
+{
+  margin-top: 40px;
+}
   .diff-part
 {
   width:60%;
@@ -2033,7 +2047,7 @@ footerここまで
 }
   .mar-two-imgs
   {
-    margin-top:80px; 
+  /*  margin-top:80px; */
   }
 
   .mar-top
@@ -2058,6 +2072,7 @@ footerここまで
 }
   .question_text
   {
+      background-color:#E9E8E9;
       font-size:14px;
       font-weight:bold; 
   }
@@ -2217,10 +2232,13 @@ footerここまで
 }
 .text-part-st4
 {
-  color:black;
-  font-size:30px;
+    color:white;
+  padding-top: 10px;
+  color:white;
+  font-size:29px;
   font-family: "Yu Gothic";
   font-weight:bold;
+      background-image: url(../image/title.png);
 }
 .text-part-st5
 {
@@ -2273,7 +2291,7 @@ footerここまで
 }
 .text-yellow-part
 {
-  padding:30px 0px;
+/*  padding:30px 0px;*/
 }
 .text-yellow-part-bg
 {
@@ -2333,8 +2351,13 @@ footerここまで
 ===================================*/
 @media(max-width:960px){
   html{
+
     font-size: 7px !important;
   }
+  .part-interval
+{
+  margin-top: 50px;
+}
     .diff-part
 {
   width:70%;
@@ -2383,6 +2406,7 @@ footerここまで
   }
    .question_text
   {
+      background-color:#E9E8E9;
       font-size: ;
       font-weight:bold; 
   }
@@ -2563,10 +2587,12 @@ footerここまで
 }
 .text-part-st4
 {
-  color:black;
+  color:white;
+  padding-top: 9px;
   font-size:30px;
   font-family: "Yu Gothic";
   font-weight:bold;
+      background-image: url(../image/title.png);
 }
 .text-part-st5
 {
@@ -2619,7 +2645,7 @@ footerここまで
 }
 .text-yellow-part
 {
-  padding:30px 0px;
+/*  padding:30px 0px;*/
 }
 .text-yellow-part-bg
 {
@@ -2721,11 +2747,12 @@ footerここまで
 }
     .mar-two-imgs
   {
-    margin-top:100px; 
+ /*   margin-top:100px; */
   }
    .question_text
   {
-    font-size: 10px;
+      background-color:#E9E8E9;
+      font-size: 10px;
       font-weight:bold; 
   }
   .mar-top
@@ -2901,13 +2928,16 @@ footerここまで
 }
 .text-part-st4
 {
-  color:black;
+  color:white;
+  padding-top: 7px;
   font-size:18px;
   font-family: "Yu Gothic";
   font-weight:bold;
+      background-image: url(../image/title.png);
 }
 .text-part-st5
 {
+  margin-top: 20px;
   color:black;
   font-size:14px;
   font-family: "Yu Gothic";
@@ -2957,7 +2987,7 @@ footerここまで
 }
 .text-yellow-part
 {
-  padding:3px 0px;
+ /* padding:3px 0px;*/
 }
 .text-yellow-part-bg
 {
@@ -3021,6 +3051,10 @@ footerここまで
   .pc-menu{
     display: none;
   }
+    .part-interval
+{
+  margin-top: -10px;
+}
   .diff-part
 {
   width:90%;
@@ -3078,11 +3112,12 @@ footerここまで
   }
    .mar-two-imgs
   {
-    margin-top:13px; 
+/*    margin-top:13px; */
   }
    .question_text
   {
-    font-size: 10px;
+      background-color:#E9E8E9;
+      font-size: 10px;
       font-weight:bold; 
   }
     .mar-top
@@ -3268,13 +3303,16 @@ footerここまで
 }
 .text-part-st4
 {
-  color:black;
+   color:white;
+  padding-top: 7px;
   font-size:20px;
   font-family: "Yu Gothic";
   font-weight:bold;
+      background-image: url(../image/title.png);
 }
 .text-part-st5
 {
+  margin-top: 0px;
   color:black;
   font-size:12px;
   font-family: "Yu Gothic";
