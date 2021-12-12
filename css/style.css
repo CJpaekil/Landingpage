@@ -976,7 +976,7 @@ cafe,bar共通部分ここまで
   }
 .top-text{
 /*  text-align: left;*/
-  width:63%;
+  width:68%;
   margin:auto;
   padding-top:60px;
 }
@@ -1019,7 +1019,7 @@ cafe,bar共通部分ここまで
 }
 .mar-set130
 {
-    margin-top: 130px;
+    margin-top: 9%;
 }
 .video-internal
 {
@@ -1146,6 +1146,9 @@ cafe,bar共通部分ここまで
   font-family: "Yu Gothic";
   font-weight:normal;
 }
+.images-part {
+    margin-top: 11%;
+}
 .text-part-st3
 {
   color:red;
@@ -1153,6 +1156,10 @@ cafe,bar共通部分ここまで
   font-family: "Yu Gothic";
   font-weight:bold;
   text-decoration: underline;
+}
+.header-text
+{
+  margin-top:27px;
 }
 .part-interval
 {
@@ -2090,9 +2097,12 @@ footerここまで
     top: 0;
     left: 0;
 }
+.images-part {
+    margin-top: 14%;
+}
 .mar-set15
 {
-    margin-top: -10px;
+    margin-top: 10%;
 }
 .mar-set30
 {
@@ -2169,8 +2179,13 @@ footerここまで
   margin:auto;
   width:80%;
 }
+.header-text
+{
+  margin-top:27px;
+}
 .gold-part-text-st1
 {
+
   color:red;
   font-size:25px;
   font-family: "Yu Gothic";
@@ -2410,6 +2425,11 @@ footerここまで
       font-size: ;
       font-weight:bold; 
   }
+      .images-part
+  {
+      margin-top: 14%;
+  }
+
     .mar-top
   {
     margin-top:50px;
@@ -2446,7 +2466,7 @@ footerここまで
 }
 .mar-set15
 {
-    margin-top: -5px;
+    margin-top: 10%;
 }
 .mar-set30
 {
@@ -2458,7 +2478,7 @@ footerここまで
 }
 .mar-set130
 {
-    margin-top: 130px;
+    margin-top: 12%;
 }
 .video-internal
 {
@@ -2749,6 +2769,10 @@ footerここまで
   {
  /*   margin-top:100px; */
   }
+    .images-part
+  {
+      margin-top: 14%;
+  }
    .question_text
   {
       background-color:#E9E8E9;
@@ -2791,7 +2815,7 @@ footerここまで
 }
 .mar-set15
 {
-    margin-top: 5px;
+    margin-top: 10%;
 }
 .mar-set30
 {
@@ -3053,7 +3077,7 @@ footerここまで
   }
     .part-interval
 {
-  margin-top: -10px;
+  margin-top: 10px;
 }
   .diff-part
 {
@@ -3114,6 +3138,10 @@ footerここまで
   {
 /*    margin-top:13px; */
   }
+  .images-part
+  {
+      margin-top: 83px;
+  }
    .question_text
   {
       background-color:#E9E8E9;
@@ -3125,7 +3153,7 @@ footerここまで
     margin-top:30px;
   }
   .top-text{
-  width:92%;
+  width:85%;
   margin:auto;
   padding:30px 0% 0px 0%;
   }
@@ -3165,7 +3193,7 @@ footerここまで
 }
 .mar-set100
 {
-    margin-top: 37px;
+    margin-top: 50px;
 }
 .mar-set130
 {
@@ -3250,6 +3278,11 @@ footerここまで
   font-size:12px;
   font-family: "Yu Gothic";
   font-weight:bold;
+
+}
+.header-text
+{
+  margin-top:5px;
 }
 .gold-part-text-st2
 {
